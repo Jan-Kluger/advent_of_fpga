@@ -1,0 +1,6 @@
+(executable
+ (public_name paper_roll_finder)
+ (name main)
+ (libraries hw sim core core_unix.command_unix hardcaml)
+ (preprocess
+  (pps ppx_jane)))

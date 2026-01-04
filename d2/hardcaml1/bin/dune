@@ -1,0 +1,6 @@
+(executable
+ (public_name pattern_finder)
+ (name main)
+ (libraries hw sim core core_unix.command_unix hardcaml)
+ (preprocess
+  (pps ppx_jane)))

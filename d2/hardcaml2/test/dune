@@ -1,0 +1,6 @@
+(library
+ (name test_pattern_finder)
+ (libraries hw sim hardcaml hardcaml_waveterm expect_test_helpers_core)
+ (inline_tests)
+ (preprocess
+  (pps ppx_hardcaml ppx_jane)))

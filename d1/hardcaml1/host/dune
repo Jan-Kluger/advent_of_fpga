@@ -1,0 +1,4 @@
+(executable
+ (name host)
+ (public_name d1_host)
+ (libraries unix))

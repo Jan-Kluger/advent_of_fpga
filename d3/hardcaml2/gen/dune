@@ -1,0 +1,4 @@
+(executable
+ (name emit_verilog)
+ (libraries hw hardcaml))
+

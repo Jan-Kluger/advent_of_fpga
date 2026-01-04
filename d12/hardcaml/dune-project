@@ -1,0 +1,33 @@
+(lang dune 3.16)
+
+(name present_packer)
+
+(generate_opam_files true)
+
+(source
+ (github username/present-packer))
+
+(authors "Author")
+
+(maintainers "Author")
+
+(license MIT)
+
+(package
+ (name present_packer)
+ (synopsis "Hardcaml DFS-based present packer for FPGA")
+ (description
+  "Hardware implementation of bounded DFS search for fitting presents into regions. Day 12 AoC puzzle solver.")
+ (depends
+  (ocaml
+   (>= 5.1))
+  (dune
+   (>= 3.16))
+  (hardcaml
+   (>= 0.17))
+  hardcaml_waveterm
+  (ppx_hardcaml :with-test)
+  (ppx_jane :with-test)
+  (expect_test_helpers_core :with-test)
+  core
+  core_unix))

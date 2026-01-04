@@ -1,0 +1,33 @@
+(lang dune 3.16)
+
+(name paper_roll_finder)
+
+(generate_opam_files true)
+
+(source
+ (github username/paper-roll-finder))
+
+(authors "Author Name <author@example.com>")
+
+(maintainers "Maintainer Name <maintainer@example.com>")
+
+(license MIT)
+
+(package
+ (name paper_roll_finder)
+ (synopsis "Hardcaml implementation of paper roll accessibility counter")
+ (description
+  "Streaming hardware implementation for counting accessible paper rolls in a grid. Synthesizable for FPGA deployment.")
+ (depends
+  (ocaml
+   (>= 5.1))
+  (dune
+   (>= 3.16))
+  (hardcaml
+   (>= 0.17))
+  hardcaml_waveterm
+  (ppx_hardcaml :with-test)
+  (ppx_jane :with-test)
+  (expect_test_helpers_core :with-test)
+  core
+  core_unix))

@@ -1,0 +1,21 @@
+(lang dune 3.20)
+
+(name hardcaml_d1_2)
+
+(generate_opam_files true)
+
+(source
+ (github janestreet/hardcaml_aoc_2024))
+
+(authors "Yannick")
+
+(maintainers "Yannick")
+
+(license MIT)
+
+(package
+ (name hardcaml_d1_2)
+ (synopsis "Advent of Code 2024 Day 1 Part 2 in Hardcaml")
+ (description
+  "Hardware implementation of zero crossing counter for rotating dials")
+ (depends ocaml dune hardcaml hardcaml_waveterm))

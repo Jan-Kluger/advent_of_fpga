@@ -1,0 +1,11 @@
+(library
+ (name sim)
+ (libraries hardcaml hw)
+ (modules sim_core)
+ (preprocess
+  (pps ppx_hardcaml)))
+
+(executable
+ (name sim_top)
+ (libraries sim hw)
+ (modules sim_top))

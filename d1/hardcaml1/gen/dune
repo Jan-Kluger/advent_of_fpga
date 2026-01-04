@@ -1,0 +1,6 @@
+(executable
+ (name emit_verilog)
+ (public_name d1_verilog)
+ (libraries hardcaml hw)
+ (preprocess
+  (pps ppx_hardcaml)))

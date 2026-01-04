@@ -1,0 +1,4 @@
+(executable
+ (name host)
+ (public_name hardcaml_d1_2_host)
+ (libraries unix))
