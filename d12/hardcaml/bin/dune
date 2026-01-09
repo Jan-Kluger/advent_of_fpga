@@ -1,6 +1,0 @@
-(executable
- (public_name present_packer)
- (name main)
- (libraries hw sim core core_unix hardcaml base)
- (preprocess
-  (pps ppx_jane)))

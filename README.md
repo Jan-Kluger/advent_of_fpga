@@ -2,6 +2,8 @@
 
 I have very limited experience in hardware coding. This repo documents my learning journey.
 
+I really enjoyed some of the functional features of Hardcaml, especially the use of the type checker which caught many errors at compile time that would have been runtime bugs in Verilog. The hierarchical module feature was also very useful for organizing complex designs.
+
 Day one was a lot more challenging than expected, so I decided to solve all challenges in normal code first, and then translate my solutions to hardcaml afterward.
 
 Since I had never used hardcaml, I found myself using AI a lot along the way as the questions became quite challenging and hard for me to wrap my head around.
