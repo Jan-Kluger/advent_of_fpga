@@ -29,7 +29,3 @@ Day 3 was definitely the day of optimizations.
 ### Day 4
 
 I tried to implement a sliding window. The first approach worked well after some difficulties. However, I wasn't really satisfied with the performance of the code and decided to do some more optimizations. The most difficult one was getting it to work in a "streaming" sort of way, where I didn't have to allocate a buffer taking the entire input and then work with the input, but it could just be streamed to the FPGA through UART and spit out a result, saving a lot of memory. This was buggy and took me ALL day, but it finally seems to work.
-
-### Day 12
-
-As my winter break is coming to an end, I decided to do some easy ones to round this journey off. While technically day 12 is super difficult, the input is super nice. All I had to do was apply some simple filtering and the main problem would work. Implementing the DFS for this was actually quite tedious.
